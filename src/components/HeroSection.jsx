@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* 1. BACKGROUND IMAGE */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/Image/hero.png" 
+          src="/Image/hero8.png" 
           alt="School Campus"
           fill 
           // CHANGE 1: Added 'object-right'. This forces the image to align to the right side.
@@ -28,19 +28,18 @@ export default function HeroSection() {
         
         <div className="max-w-3xl"> 
           <p className="text-yellow-400 font-bold tracking-widest uppercase mb-2">
-            Welcome to Success International College
+            Welcome to Success International Institute
           </p>
           
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-            Empowering the <br />
+            Your journey <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500">
-              Next Generation
+            to University Begins Here
             </span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
-            Providing world-class education with a focus on academic excellence, 
-            character building, and leadership development in Godakawela and beyond.
+            Join the island's best lecture panel for Science, Commerce, Arts and Technology. Secure your future with our specialized O/L, A/L and Diploma programs.
           </p>
 
           {/* 3. BUTTONS */}

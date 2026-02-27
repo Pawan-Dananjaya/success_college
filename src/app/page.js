@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import WelcomeSection from "@/components/WelcomeSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import JourneySection from "@/components/JourneySection";
 import Branches from "@/components/Branches";
 import Programs from "@/components/Programs";
@@ -14,7 +14,7 @@ export default function Home() {
       
       <HeroSection />
 
-      <WelcomeSection/>
+      <WhyChooseUs/>
 
       <JourneySection/>
 

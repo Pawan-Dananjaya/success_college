@@ -40,22 +40,23 @@ const navItems = [
     ],
   },
   {
-    name: 'Academics',
+    name: 'Classes',
     submenu: [
-      { name: 'Primary Section', href: '/academics/primary' },
-      { name: 'O/L Section', href: '/academics/olevel' },
-      { name: 'A/L Section', href: '/academics/alevel' },
+      { name: 'Primary Section', href: '/classes/primary' },
+      { name: 'O/L Section', href: '/classes/olevel' },
+      { name: 'A/L Section', href: '/classes/alevel' },
+      { name: 'Time Table', href: '/classes/timetable' },
     ],
   },
   {
-    name: 'Beyond Institute',
+    name: 'Diplomas',
     submenu: [
-      { name: 'Facilities', href: '/beyond/facilities' },
-      { name: 'Clubs', href: '/beyond/clubs' },
-      { name: 'Sports', href: '/beyond/sports' },
+      { name: 'English', href: '/diplomas/english' },
+      { name: 'Time Table', href: '/diplomas/timetable' },
+      
     ],
   },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Results', href: '/results' },
 ];
 
 export default function Navbar() {
